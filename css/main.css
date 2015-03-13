@@ -1,0 +1,102 @@
+/*
+Coder: Mohamed A. Kamara
+Degree: WDD
+Date: March 12, 2015
+
+*/
+
+/*-------------------------------------------  general -------------------------------------------------------*/
+body
+{
+	margin: 0 auto;
+	width: 100%;
+	background: #fff;
+	font-family: arial, "arial narrow", tahoma;
+	opacity:1;
+}
+
+/*-------------------------------------------  header -------------------------------------------------------*/
+#header
+{
+	background: #ccc;
+	padding: 20px;
+}
+
+#header h1 { margin: 0; }
+
+/*-------------------------------------------navigation -------------------------------------------------------*/
+#navigation
+{
+	float: left;
+	width: 100%;
+	background: #333;
+	
+}
+ @font-face {
+    font-family: TestFont;
+    src: url(http://www.fontsquirrel.com/license/abril-fatface);
+}
+ 
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+	font-family:TestFont;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+/*-------------------------------------------  page-content -------------------------------------------------------*/
+#main-content
+{
+	width: 100%;
+	background-color: #f0f9ff;
+}
+
+#content
+{
+	clear: left;
+	width: 60%;
+	padding: 5px 0;
+	margin: 0 0 0 4%;
+	display: inline-block;
+}
+
+#content h2 { margin: 0; }
+
+/*-------------------------------------------  gallery -------------------------------------------------------*/
+#gallery
+{
+	float: right;
+	width: 30%;
+	padding: 5px 0;
+	margin: 0 1% 0 0;
+	display: inline-block;
+}
+
+#gallery h3 { margin: 0; }
+
+/*-------------------------------------------  footer -------------------------------------------------------*/
+#footer
+{
+	clear: left;
+	background: #ccc;
+	text-align: left;
+	padding: 20px;
+	height: 1%;
+}
