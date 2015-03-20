@@ -1,7 +1,11 @@
 Mohamed A. Kamara
 Designing for Web Standard 1
 
+<<<<<<< Updated upstream
 March 12, 2015
+=======
+March 19, 2015
+>>>>>>> Stashed changes
 
 GitHub Info:
 

@@ -1,12 +1,17 @@
 /*
 Coder: Mohamed A. Kamara
 Degree: WDD
+<<<<<<< Updated upstream
 Date: March 12, 2015
+=======
+Date: March 19, 2015
+>>>>>>> Stashed changes
 
 */
 
 /*-------------------------------------------  general -------------------------------------------------------*/
 body
+<<<<<<< Updated upstream
 {
 	margin: 0 auto;
 	width: 100%;
@@ -32,12 +37,48 @@ body
 	background: #333;
 	
 }
+=======
+	{
+	margin: 1% auto;
+	width: 90%;
+	font-family: arial, "arial narrow", tahoma;
+	font-size:1em;
+	opacity:1;
+	background-image: url("../images/main-back.jpg");
+	}
+
+/*-------------------------------------------header -------------------------------------------------------*/
+#header
+	{
+	padding: 20px;
+	}
+	
+#header h1 { 
+			background-image: url(images/whaleicon.jpg);
+			font-family: arial, "arial narrow", tahoma;
+			font-size:1.5em;
+			padding: 1%; 
+		}
+
+
+/*-------------------------------------------navigation -------------------------------------------------------*/
+#navigation
+	{
+	position:relative;
+	float: left;
+	width: 100%;
+	background: #333;
+	}
+	
+/*---------------------------------------external font-----------------------------------------------*/	
+>>>>>>> Stashed changes
  @font-face {
     font-family: TestFont;
     src: url(http://www.fontsquirrel.com/license/abril-fatface);
 }
  
 #navigation ul
+<<<<<<< Updated upstream
 {
 	margin: 0;
 	padding: 0;
@@ -100,3 +141,104 @@ body
 	padding: 20px;
 	height: 1%;
 }
+=======
+			{
+			margin: 0;
+			padding: 0;
+			font-family:TestFont, arial, "arial narrow";
+}
+
+#navigation ul li
+			{
+			list-style-type: none;
+			display: inline;
+			}	
+
+#navigation li a {
+				display: block;
+				float: left;
+				padding: 5px 10px;
+				color: #fff;
+				text-decoration: none;
+				border-right: 1px solid #fff;
+			}
+
+#navigation li a:hover { 
+						background: #383; 
+				}
+
+/*----page-content -------------------------------------------------------*/
+#main-content {
+				width: 80%;
+				padding: 2%;
+				margin-left:5%;
+				background-image: url("../images/main-back.jpeg");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-attachment: fixed;
+			}
+
+#content {
+		  clear: left;
+		  width: 60%;
+		  padding: 5px 0;
+		  margin: 0 0 0 4%;
+		  display: inline-block;
+		}
+
+#content h2 
+		{ 
+		margin: 0; 
+		
+		}
+
+/*-------------------------------------------  gallery -------------------------------------------------------*/
+#gallery {
+		float: right;
+		width: 30%;
+		padding: 1% 0;
+		display: block;
+		box-shadow: 2px 2px 1px #888888;
+		}
+
+#gallery h3 { 
+		display: block;
+		margin: 0; 
+		}
+		
+/*----------------------------------add images to page headings---------------------------------------------*/		
+#evolution {
+		background-image: url("../images/whaleicon.jpg");
+		background-repeat: no-repeat;
+		background-position: left top;
+		padding-left: 7%;
+		height: 5%;
+		
+		}
+	
+#anatomy {
+		background-image: url("../images/whaleicon.jpg");
+		background-repeat: no-repeat;
+		background-position: left top;
+		padding-left: 7%;
+		height: 5%;
+
+		}
+		
+#science {
+		background-image: url("../images/whaleicon.jpg");
+		background-repeat: no-repeat;
+		background-position: left top;
+		padding-left: 7%;
+		height: 5%;
+		
+		}
+
+/*-------------------------------------------  footer -------------------------------------------------------*/
+#footer {
+		clear: left;
+		text-align: left;
+		padding: 20px;
+		height: 0.5%;
+		}
+>>>>>>> Stashed changes
