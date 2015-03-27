@@ -2,26 +2,16 @@
 <html>
 	<head lang="en">
     		<meta charset="UTF-8">
-<<<<<<< Updated upstream
-    		<title>Project 1</title>
-=======
     		<title>Project 3</title>
->>>>>>> Stashed changes
     		<link rel="stylesheet" href="css/main.css">
 	</head>
 		<body>
-				<div id="header">
-<<<<<<< Updated upstream
-				    <h1>DWS Project 1</h1><br>
-					Source: <a href="http://en.wikipedia.org/wiki/Whale">Wikipedia,  The free Encyclopedia.></a>
-=======
-				    <h1>DWS Project 3</h1><br>
+			<header id="header">
+				<h1>Science in Action - Whales</h1>
 					Source: <a href="http://en.wikipedia.org/wiki/Whale">Wikipedia,  The free Encyclopedia.</a>
->>>>>>> Stashed changes
-				</div>
+				</header>
 				
-				<div id="navigation">	
-		
+				<nav id="navigation">	
 					<!--Page navigation starts here.-->
 					<ul>
 						<li><a href="#main-content">Origin</a></li>
@@ -29,15 +19,12 @@
 						<li><a href="#anatomy">Anatomy</a></li>
 						<li><a href="#gallery">Gallery</a></li>
 					</ul>
-				 </div>
+				 </nav>
+				 
 					<!--Ends here. -->
-			   <div id="main-content">
-				<div id="content">
-<<<<<<< Updated upstream
-					<h2>Science in Action - Whales </h2>
-=======
+			   <article id="main-content">
+				<section id="content">
 					<h2 id="science">Science in Action - Whales </h2>
->>>>>>> Stashed changes
 
 				  <dl>
 					<dt>Definition of Whale</dt>
@@ -70,13 +57,32 @@
  								<li>Dentition</li>
  								<li>Ears</li>
  							</ol>
-
+<h3>Classification of Whale</h3>
+<table>
+			
+			<tr class="head">
+				<th>The Southern Hemisphere</th>
+				<th>The Northern Hemisphere</th>
+			</tr>
+			<tr>
+				<td>Antarctic Killer Whale</td>
+				<td>Resident Killer Whale</td>
+			</tr>
+			<tr>
+				<td>Pack Ice Killer Whale</td>
+				<td>Bigg's Killer Whale</td>
+			</tr>
+			<tr>
+				<td>Gerlache Killer Whale</td>
+				<td>Offshore Killer Whale</td>
+			</tr>
+		</table>
  							<p>Upon death, whale carcasses fall to the deep ocean and being massive, with body weights of the range 30 to 
  							160 tonnes (30,000 to 160,000 <abbr title="kilogram">kg</abbr>), provide a substantial habitat for marine creatures.
-				</div>
+				</section>
 				<!--Picture gallery starts here-->
 				
-				<div id="gallery">
+				<aside id="gallery">
 					<h3>Gallery</h3>
 					<figure>
  						 <a href="images/bluewhale.jpg"><img src="images/bluewhale.jpg" alt="The Blue Whale" width="180" height="120"></a>
@@ -95,14 +101,71 @@
   						<figcaption>Fig 4. The Minke Whale family in display. Courtesy of Barristers Animal Welfare Panel</figcaption>
 					</figure>
 				
-				</div>
-			</div>
+				</aside>
+				<div>
+				<form class="contact_form" action="" method="post"/>
+				
+				<fieldset>
+				<legend>Contact Us</legend>
+
+
+				
+   
+   					 <p class="name">
+    				<label for="name">What is your name?</label><br>
+        			<input type="text" name="name" id="name" />
+        
+    				</p>
+   
+    				<p class="email">
+     				<label for="email">What is your E-mail address?</label><br>
+       				 <input type="text" name="email" id="email" required/>
+        
+    				</p>
+   
+   					 <p class="rateUs">
+   	 				<label for="rateUs">How would rate us?</label>
+       				 <input type = "radio" name = "rateUs" id = "poor" value = "Poor" />
+                 
+                      <label for = "poor">Poor</label>
+          
+                     <input type = "radio" name = "rateUs" id = "good" value = "good" />
+                    <label for = "good">Good</label>
+ 
+                   <input type = "radio" name = "rateUs" id = "amazing" value = "amazing" />
+                   <label for = "Amazing">Amazing</label>
+       
+    				</p>
+    				<p class="source">
+    				<label for="source">How did you hear about us?</label>
+       				<select name="source">
+        			<option value="01">Internet Article</option>
+        			<option value="02">Internet search</option>
+        			<option value="03">Email</option>
+        			<option value="04">Family/friend</option>
+        			<option value="05">Other</option>
+        </select>
+       
+    	
+      <p>
+    	<label for="text">Comments:</label><br>
+        <textarea name="text"></textarea></p><br>
+		
+        <input type="submit" value="Submit Contact" />
+        </fieldset>
+   
+</form>
+</div>
+      
+   
+			</article>
 				<!--Picture gallery ends here.-->
-			
-			<div id="footer">
+
+
+			<footer id="footer">
 			<!--Takes visitor to the top of page-->
 				<h3><a href="#main-content">Top of Page</a></h3>
 				&copy;DWS Project 1. All Rights Reserved.
-			</div>
+			</footer>
 		</body>
 </html>

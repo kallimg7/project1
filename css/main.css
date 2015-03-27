@@ -1,43 +1,12 @@
 /*
 Coder: Mohamed A. Kamara
 Degree: WDD
-<<<<<<< Updated upstream
-Date: March 12, 2015
-=======
-Date: March 19, 2015
->>>>>>> Stashed changes
+Date: March 26, 2015
 
 */
 
 /*-------------------------------------------  general -------------------------------------------------------*/
 body
-<<<<<<< Updated upstream
-{
-	margin: 0 auto;
-	width: 100%;
-	background: #fff;
-	font-family: arial, "arial narrow", tahoma;
-	opacity:1;
-}
-
-/*-------------------------------------------  header -------------------------------------------------------*/
-#header
-{
-	background: #ccc;
-	padding: 20px;
-}
-
-#header h1 { margin: 0; }
-
-/*-------------------------------------------navigation -------------------------------------------------------*/
-#navigation
-{
-	float: left;
-	width: 100%;
-	background: #333;
-	
-}
-=======
 	{
 	margin: 1% auto;
 	width: 90%;
@@ -71,77 +40,12 @@ body
 	}
 	
 /*---------------------------------------external font-----------------------------------------------*/	
->>>>>>> Stashed changes
  @font-face {
     font-family: TestFont;
     src: url(http://www.fontsquirrel.com/license/abril-fatface);
 }
  
 #navigation ul
-<<<<<<< Updated upstream
-{
-	margin: 0;
-	padding: 0;
-	font-family:TestFont;
-}
-
-#navigation ul li
-{
-	list-style-type: none;
-	display: inline;
-}
-
-#navigation li a
-{
-	display: block;
-	float: left;
-	padding: 5px 10px;
-	color: #fff;
-	text-decoration: none;
-	border-right: 1px solid #fff;
-}
-
-#navigation li a:hover { background: #383; }
-/*-------------------------------------------  page-content -------------------------------------------------------*/
-#main-content
-{
-	width: 100%;
-	background-color: #f0f9ff;
-}
-
-#content
-{
-	clear: left;
-	width: 60%;
-	padding: 5px 0;
-	margin: 0 0 0 4%;
-	display: inline-block;
-}
-
-#content h2 { margin: 0; }
-
-/*-------------------------------------------  gallery -------------------------------------------------------*/
-#gallery
-{
-	float: right;
-	width: 30%;
-	padding: 5px 0;
-	margin: 0 1% 0 0;
-	display: inline-block;
-}
-
-#gallery h3 { margin: 0; }
-
-/*-------------------------------------------  footer -------------------------------------------------------*/
-#footer
-{
-	clear: left;
-	background: #ccc;
-	text-align: left;
-	padding: 20px;
-	height: 1%;
-}
-=======
 			{
 			margin: 0;
 			padding: 0;
@@ -241,4 +145,83 @@ body
 		padding: 20px;
 		height: 0.5%;
 		}
->>>>>>> Stashed changes
+/*-------------------------------------------  Table -------------------------------------------------------*/
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 1em;
+    border: 1px solid #98bf21;
+    padding: 3px 7px 2px 7px;
+    text-align:center;
+    background-color: #A7C942;
+    color: #ffffff;
+}
+
+td {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+    padding: 3px 7px 2px 7px;
+    text-align:center;	
+}
+
+tr:nth-child(even) {
+background: #F2F2F2;
+}
+
+td:hover {
+	background-color: #fff;
+}
+
+/*Form validation and attributes manipulation*/
+
+			fieldset {
+				width:700px;
+				margin-top: 20px;
+				border: 1px solid #d6d6d6;
+				background-color: #ffffff;
+				line-height: 1.6em;
+				}
+				
+			legend {
+				font-style: italic;
+				color: #666666;
+				}
+				
+			input[type="text"] {
+				width: 160px;
+				border: 1px solid #d6d6d6;
+				padding: 2px;
+				outline: none;
+				}
+			input[type="text"]:focus,
+			input[type="text"]:hover {
+				background-color: #d0e2f0;
+				border: 1px solid #999999;
+				}
+				
+			input[type="submit"] {
+				border: 1px solid #006633;
+				background-color: #009966;
+				color: #ffffff;
+				border-radius: 5px;
+				padding: 5px;
+				margin-top: 10px;
+				}
+			input[type="submit"]:hover {
+				border: 1px solid #006633;
+				background-color: #00cc33;
+				color: #ffffff;
+				cursor: pointer;
+				
+				}
+			.title {
+				float: left;
+				width: 300px;
+				clear: left;}
+			.submit {
+				width: 200px;
+				text-align: right;}
